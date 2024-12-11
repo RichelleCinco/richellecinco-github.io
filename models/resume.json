@@ -1,0 +1,90 @@
+{
+    "profile": {
+        "name": "Richelle Cinco",
+        "email": "richelle.cinco@gmail.com",
+        "url": "https://richellecino.github.io/",
+        "summary": "An aspiring designer and developer with over ten years of management and team building experience",
+        "location": {
+            "postalCode": "ID 98716",
+            "city": "Boise",
+            "countryCode": "US"
+        }
+    },
+    "experience": [
+        {
+            "name": "Lumens.com",
+            "position": "Operations Manager",
+            "startDate": 2008,
+            "endDate": 2018,
+            "summary": "Responsible for overseeing day to day operations in purchasing, vendor-relations, warranty and returns"
+        },
+        {
+            "name": "Zephyr Ventilation",
+            "position": "Showroom Manager",
+            "startDate": 2003,
+            "endDate": 2007,
+            "summary": "Oversaw showroom operations in the heart of San Francisco Design District including retail sales training, event planning and product presentations"
+        },
+        {
+            "name": "Smart & Final",
+            "position": "President",
+            "startDate": 2002,
+            "endDate": 2003,
+            "summary": "Assisted the payroll manager in processing weekly payroll for over five hundred employees."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Boston University",
+            "area": "MS Computer Information Systems",
+            "startDate": 2024
+        },
+        {
+            "institution": "Boise State University",
+            "area": "BFA Graphic Design",
+            "startDate": 2019,
+            "endDate": 2023
+        }
+    ],
+    "certificates": [
+        {
+            "name": "UX and French Elementary",
+            "institution": "Boise State University",
+            "date": 2023
+        }
+    ],
+    "skills": [
+        "Graphic Design",
+        "Prototyping",
+        "Problem-Solving",
+        "Event Planning",
+        "Figma",
+        "Illustrator",
+        "Photoshop",
+        "InDesign",
+        "After Effects",
+        "Premier Pro",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "React",
+        "TypeScript",
+        "SQL"
+    ],
+    "languages": [
+        "English",
+        "Tagalog",
+        "Cebuano",
+        "French"
+    ],
+    "interests": [
+        "Paper Art",
+        "Photography",
+        "Cinematography",
+        "Crafts",
+        "Ceramics",
+        "Gardening",
+        "Bake"
+    ]
+}

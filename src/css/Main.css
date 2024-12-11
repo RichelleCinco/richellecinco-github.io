@@ -1,0 +1,28 @@
+@media(max-width: 800px) {
+    .main section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    #logo {
+        width: 22px;
+    }
+
+    .greet{
+        font-size: 16px;
+    }
+
+    span {
+        font-weight: 300;
+    }
+
+    .about-me{
+        font-size: 13px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+}

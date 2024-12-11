@@ -1,0 +1,24 @@
+/* apply css grid for the gallery */
+div.gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    width: 100%;
+    margin: 0;
+
+}
+
+.galleryItem {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.galleryImg {
+    flex: 1 1 auto;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}

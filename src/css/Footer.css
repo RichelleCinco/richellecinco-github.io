@@ -1,0 +1,15 @@
+/*styling for footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    position: relative;
+    margin-top: 50px;
+    min-height: 60px;
+    width: 100vw;
+}
+
+.copyright {
+    font-size: 15px;
+}

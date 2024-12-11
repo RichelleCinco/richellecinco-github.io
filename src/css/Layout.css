@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    place-items: center;
+    width: auto;
+   
+}
+
+main {
+    flex-grow: 1;
+}

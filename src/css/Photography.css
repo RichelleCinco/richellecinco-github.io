@@ -1,0 +1,16 @@
+.photography-image {
+    display: flex;
+    height:100vh;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.photo-image {
+    flex: 50%;
+    overflow: hidden;
+    height: 100vh;
+}

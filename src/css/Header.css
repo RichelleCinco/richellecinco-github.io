@@ -1,0 +1,92 @@
+
+header {
+    display: flex; 
+    flex: 0 1 auto;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: #dee2e6; */
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 25px;
+    margin-left: 25px;
+    align-items: center;
+    position: sticky;
+}
+
+.nav {
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+    position: sticky;
+    top: 0; /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_sticky */
+    z-index: 1000; /*keep it on top of the layers */
+}
+
+.toggle-menu {
+    transform: rotate(90deg);
+    font-size: 1rem;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+
+.navItem {
+    margin-left: 10px;
+}
+
+.menu-dropdown {
+    display: flex; 
+    z-index: 1000;
+}
+
+.menu-dropdown ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+ul > li {
+    margin-top: 10px;
+}
+
+.navBar li > a {
+    color: black;
+    transition: transform .4s ease;
+}
+
+/* application of :hover pseudo class to add a simple animation during hover state */
+a:hover {
+    transform: scale(1.5);
+    font-weight: 700;
+    color: gray;
+}
+
+/* apply margin to the first child element with <li> to move it to the right of the next <li> */
+
+.navBar li:nth-child(1) {
+    margin-right: 50px;
+}
+
+#search {
+    border: none;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+/* apply :focus pseudo class element to format the focus feature of the search field */
+#search:focus {
+    outline: 1px solid lightgray;
+    outline-offset: 4px;
+}
