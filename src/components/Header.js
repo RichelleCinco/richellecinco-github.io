@@ -21,7 +21,6 @@ export default function Header() {
             </Link>
             </div>
 
-
             <nav className="menu">
               <button className="toggle-menu" onClick={toggleMenu}>menu</button>
             
@@ -33,9 +32,6 @@ export default function Header() {
               </li>
               <li className="navItem">
                 <Link to="/blogs">Blogs</Link>
-              </li>
-              <li className="navItem">
-                <Link to="/contact">Contact</Link>
               </li>
               <li className="navItem">
                 <Link to="/photography">Photography</Link>
@@ -57,6 +53,9 @@ export default function Header() {
               </li>
               <li className="navItem">
                 <Link to="/about">About</Link>
+              </li>
+              <li className="navItem">
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
             </div>

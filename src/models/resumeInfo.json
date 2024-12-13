@@ -12,21 +12,21 @@
     },
     "experience": [
         {
-            "name": "Lumens.com",
+            "company": "Lumens.com",
             "position": "Operations Manager",
             "startDate": 2008,
             "endDate": 2018,
             "summary": "Responsible for overseeing day to day operations in purchasing, vendor-relations, warranty and returns"
         },
         {
-            "name": "Zephyr Ventilation",
+            "company": "Zephyr Ventilation",
             "position": "Showroom Manager",
             "startDate": 2003,
             "endDate": 2007,
             "summary": "Oversaw showroom operations in the heart of San Francisco Design District including retail sales training, event planning and product presentations"
         },
         {
-            "name": "Smart & Final",
+            "company": "Smart & Final",
             "position": "President",
             "startDate": 2002,
             "endDate": 2003,
@@ -78,7 +78,7 @@
         "Cebuano",
         "French"
     ],
-    "interests": [
+    "hobbies": [
         "Paper Art",
         "Photography",
         "Cinematography",

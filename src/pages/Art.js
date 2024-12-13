@@ -5,9 +5,12 @@ import '../css/Art.css';
 const Art = () => {
   return (
     <>
-      <h1 className="h1">Art</h1>
-      <div>
+      <div className="paper-art-container">
         <img src="https://richelleCinq.github.io/images/works/ikigai.jpg" alt="ikigai paper art" className="hero-image" />
+      </div>
+      <br></br>
+      <div className="love-paper-art">
+        <p >I <span className="heart">♥</span> PAPER ART!</p>
       </div>
     </>
   )

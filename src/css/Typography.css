@@ -1,0 +1,55 @@
+.typography {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.type-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    max-height:700px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.typography2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.type-image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    max-height:700px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+.content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content p{
+    line-height: 1.6rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

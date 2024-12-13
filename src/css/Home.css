@@ -58,8 +58,11 @@ p {
 .contentGrid > section {
     display: grid;
     background: white;
-    max-width: 400px;
-    min-height: 420px;
+    height: 450px;
+    width: 400px;
+    max-width: 450px;
+    min-width: 350px;
+    max-height: 420px;
     margin: auto;
     box-shadow: 1px 1px 5px lightgray;
 }
@@ -69,6 +72,7 @@ h2 {
     font-size: 20px;
     height: 20%;
     align-content: center;
+    margin-top: 10px;
 }
 
 .section {
@@ -99,14 +103,14 @@ h2 {
 
 .section:hover {
     transform: scale(1.02);
-    box-shadow: 5px 5px 10px lightgray
+    box-shadow: 5px 5px 10px lightgray;
 }
 
 
 
 
 @media screen and (max-width: 800px) {
-    article .section{
+    .contentGrid{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }

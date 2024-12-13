@@ -1,0 +1,109 @@
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    align-items: right;
+    margin-right: 100px;
+}
+
+.button:hover button {
+    transform: none;
+    font-size:16px;
+}
+
+.download-resume {
+    display: flex;
+    background-color: lightgray;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px lightgray;
+}
+
+
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.name {
+    font-weight:300;
+    color: rgb(212, 55, 55);
+    font-size: 2.5rem;
+}
+
+.titlebar {
+    font-weight:300;
+    font-size: 14px;
+}
+
+.summary h2{
+    max-width: 250px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+h2 {
+    color: rgb(72, 71, 71);
+}
+
+.section2 {
+    display:grid;
+    align-items: top;
+    min-width: 80%;
+    gap:40px;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.section3 {
+    display:grid;
+    align-items: top;
+    min-width: 80%;
+    gap:40px;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: 100%;
+}
+
+
+.section2-items h2 {
+    margin-bottom: 20px;
+}
+
+.strong {
+    font-weight: 600;
+}
+
+.experience-items {
+    line-height: 22px;
+}
+
+p {
+    font-weight: 300;
+}
+
+li {
+    list-style: none;
+    font-weight: 300;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

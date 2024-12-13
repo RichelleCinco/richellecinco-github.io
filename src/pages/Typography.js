@@ -1,13 +1,14 @@
-// import './css/Typography.css';
+import '../css/Typography.css';
 
 const Typography = () => {
     return (
       <>
         <h1>Typography</h1>
-        <div>
-          <img src="https://richelleCinq.github.io/images/works/PopUp_book.png" alt="fonts"></img>
+        <div className="typography">
+          <img className="type-image" src="https://richelleCinq.github.io/images/works/beauty-type-poster.png" alt="fonts"></img>
         </div>
-        <div>
+
+        <div className="content">
           <p> In my design journey, typography seemed so foreign.
             It was not due to a lack of interest or admiration, but to a profound understanding of its nature - as simple as its anatomy and its purposes.
             After becoming more familiar with it, I find myself deeply appreciating its significance, beauty, and what it could bring to any design I do.</p >
@@ -17,6 +18,10 @@ const Typography = () => {
             captivating character and protagonist. After a few hand-drawn iterations, I opted for the contrast of thin and thick lines and channeled Neo-classical
             and Humanist styles - a reflection of the character’s delicate nature. Ophelia’s design is intended for display applications; however, if used in smaller
             font sizes, it hides some of the decorations on certain letters. These decorations can only be appreciated when zoomed in, which reminds me of Ophelia’s story.</p>
+        </div>
+
+        <div className="typography2">
+          <img className="type-image2" src="https://richelleCinq.github.io/images/works/PopUp_book.png" alt="fonts"></img>
         </div>
       </>
     )

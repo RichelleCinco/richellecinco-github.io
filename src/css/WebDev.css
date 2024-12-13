@@ -1,0 +1,23 @@
+.web-dev {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.web-dev-heart{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.heart {
+    color:red;
+}
+
+.web-dev-text {
+    margin-top: 300px;
+    margin-right: 30px;
+}

@@ -1,0 +1,17 @@
+.paper-art-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.love-paper-art {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart {
+    color:red;
+}
